@@ -9,8 +9,6 @@ The goal of this project is to reduce exosuit component drift in a passive sprin
 
 At lower cable tensions, little drift compensation is required for unpowered systems. This enables smaller and lighter systems that require less power to operate than conventional exosuits.
 
+<br/><img src='/images/exosuit.png'>
 
-
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mAYbsquFo88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/mAYbsquFo88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--!>
