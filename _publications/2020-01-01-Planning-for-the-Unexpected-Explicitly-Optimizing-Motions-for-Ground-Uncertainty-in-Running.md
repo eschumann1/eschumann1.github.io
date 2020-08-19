@@ -1,12 +1,9 @@
 ---
-title: "Planning for the Unexpected: Explicitly Optimizing Motions for Ground Uncertainty in Running"
+title: "Effects of Foot Stiffness and Damping on Walking Robot Performance"
 collection: publications
 permalink: /publication/2020-01-01-Planning-for-the-Unexpected-Explicitly-Optimizing-Motions-for-Ground-Uncertainty-in-Running
-date: 2020-01-01
-venue: 'ICRA (Accepted and Presented)'
-citation: ' <b>Kevin Green</b>,  Ross Hatton,  Jonathan Hurst, &quot;Planning for the Unexpected: Explicitly Optimizing Motions for Ground Uncertainty in Running.&quot; ICRA (Accepted and Presented), 2020.'
-publication_type: 'inproceedings'
-preprint: 'https://arxiv.org/abs/2001.10629'
-presentation_video_url: 'https://youtu.be/EpVv-fVOxMw'
-bib_file_name: '2020-01-01-Planning-for-the-Unexpected-Explicitly-Optimizing-Motions-for-Ground-Uncertainty-in-Running.bib'
+date: 2019-08-12
+venue: 'International Conference on Robotics and Automation (ICRA)'
+citation: ' <b>Ethan Schumann</b>,  Nils Smit-Anseeuw,  Petr Zaytsev, Rodney Gleason, K. Alex Shorter, C. David Remy, &quot;Effects of Foot Stiffness and Damping on Walking Robot Performance.&quot; ICRA, 2019.'
+publication: 'https://ieeexplore.ieee.org/document/8794050'
 ---
