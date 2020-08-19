@@ -5,6 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 
+
+<h2 class="archive__item-title"> Peer-Reviewed Conference Papers </h2>
+
+{% for post in site.publications reversed %}
+  {%if post.publication_type == 'inproceedings'%}
+    {% include archive-single-publication.html %}
+  {% endif %}
+{% endfor %}
+
 <!-- {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
  {% endif %}
@@ -21,7 +30,6 @@ author_profile: true
   {% endif %}
  {% endfor %}
 --!>
-
 <!-- <h2 class="archive__item-title"> Peer-Reviewed Journal Papers </h2>
  {% for post in site.publications reversed %}
   {%if post.publication_type == 'article'%}
@@ -29,14 +37,6 @@ author_profile: true
   {% endif %}
  {% endfor %}
 --!>
-
-<h2 class="archive__item-title"> Peer-Reviewed Conference Papers </h2>
-{% for post in site.publications reversed %}
-  {%if post.publication_type == 'inproceedings'%}
-    {% include archive-single-publication.html %}
-  {% endif %}
-{% endfor %}
-
 <!-- <h2 class="archive__item-title"> Patents </h2>
  {% for post in site.publications reversed %}
   {%if post.publication_type == 'patent' %}
