@@ -1,18 +1,17 @@
 ---
-title: "Smart Braids"
-excerpt: "Project at Michigan during undergrad that created contraction sensing air muscles by measuring inductance of the fibers<br/><img src='/images/smartBraid500.png'>"
+title: "Trotting Simulation"
+excerpt: "MPC Based Torque Control Simulation of a Quadrupedal Robot<br/><img src='/images/smartBraid500.png'>"
 collection: portfolio
 ---
 
-Early in undergrad I joined David Remy’s RAMLab as a research assistant where I initially worked with Wyatt Felt on his smart braid project. The core concept of smart braids is to take a pneumatic artificial muscle (also known as a McKibben air muscle) and use conductive wire as the fiber. This is to enable contraction sensing by measuring the change in the induction of the helical coils.
+At Carnegie Mellon University's Robomechanics Lab, I helped create trotting simulations of a quadrupedal robot in Pybullet based on Ghost Robotics’ Spirit 40 quadruped. Inspired by desirable results from the MIT Cheetah 3 quadruped, I investigated the viability of using model predictive control as a low-level controller for legged locomotion. I gradually progressed the robot simulation in PyBullet from standing to trotting the robot by developing controllers for stance and swing phases of the respective legs during the gait cycle. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/47T9I_wnEE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+To stand, I implemented torque control using model predictive control to optimize for desired ground reaction forces during the stance phase. This required calculating the leg jacobians which was not available through Ghost Robotics. Instead, I consulted values from the URDF file and generated the values through Matlab. For trotting, a leg swing trajectory was generated using parabolic and Bézier curves and implemented with position control. The parabolic trajectory appeared more stable for trotting at low speed.
 
-Pneumatic artificial muscles work a lot like the classic finger trap toy. They contain interwoven right handed and left handed helical strips. This results in a mechanism that can extend while shrinking its diameter and contract while increasing its diameter. When a flexible tube/bladder is surrounded by these helical fibers it forms an actuator. When internal pressure increases, the muscle will increase its diameter and contract. 
+#<iframe width="560" height="315" src="https://www.youtube.com/embed/47T9I_wnEE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" #allowfullscreen></iframe>
 
-<img src='/images/smartBraidDiagram.png'>
+#<img src='/images/smartBraidDiagram.png'>
 
-I personally contributed by developing a customizable jig (picture below) to manufacture prototypes of the smart braids so that we could experiment with wire wrap patterns, wire sizes and wire materials. It was important to create consistent, uniform helical weaves so that the models of the inductive sensor could be correlated to hardware data. The jig I designed consisted of four 3D printed parts that surround a wooden dowel. The jig has guides and ramps to remind the user of the weave order. Once wrapping is complete the smart braid and 3D printed parts are slid off of the dowel, then the guide can be disassembled and removed piece by piece through the hole left by the dowel.  
 
 <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
     <source src="{{ site.baseurl }}/media/smartBraids/spiritsimwalk.mp4" type="video/mp4" />
