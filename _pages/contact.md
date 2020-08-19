@@ -10,4 +10,4 @@ redirect_from:
 {% include base_path %}
 
 
-Email: eschumann\[at\]g\[DOT\]harvard\[DOT\]edu
+Email: eschumann \[AT\] g \[DOT\] harvard \[DOT\] edu
