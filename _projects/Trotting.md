@@ -1,6 +1,6 @@
 ---
 title: "Trotting Simulation"
-excerpt: "MPC Based Torque Control Simulation of a Quadrupedal Robot<br/><img src='/images/smartBraid500.png'>"
+excerpt: "MPC Based Torque Control Simulation of a Quadrupedal Robot<br/><img src='/images/spiritsim.png'>"
 collection: portfolio
 ---
 
