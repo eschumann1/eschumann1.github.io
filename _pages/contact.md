@@ -10,4 +10,4 @@ redirect_from:
 {% include base_path %}
 
 
-Email: \[lastname\]kev\[at\]oregonstate\[DOT\]edu
+Email: eschumann\[at\]g\[DOT\]harvard\[DOT\]edu
