@@ -182,15 +182,15 @@ collections:
     output: true
     permalink: /:collection/:path/
   projects:
+    order:
+    - TrottingSim.md
+    - SelfTensionActuator.md
+    - Hurricane.md
     output: true
     permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
-  order:
-    - TrottingSim.md
-    - SelfTensionActuator.md
-    - Hurricane.md
 
 
 # Defaults
