@@ -14,5 +14,5 @@ A portion of this kinetic energy is transferred to a hydroelectric generator pla
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
-    <source src="{{ site.baseurl }}/media/SeniorDesign.mp4" type="video/mp4" />
+    <source src="{{ site.baseurl }}/media/seniordesign.mp4" type="video/mp4" />
 </video>
