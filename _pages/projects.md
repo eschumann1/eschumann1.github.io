@@ -9,7 +9,7 @@ author_profile: true
 
 {% assign post = site.projects | sort: "order" %}
 
-{% for post in projects %}
+{% for post in site.projects %}
   {% include archive-single.html %}
 {% endfor %}
 
