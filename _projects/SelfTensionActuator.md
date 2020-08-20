@@ -2,6 +2,7 @@
 title: "Self Tensioning Actuator"
 excerpt: "Actuator designed to reduce exosuit component drift <br/><img src='/images/actuator.png'>"
 collection: portfolio
+order: 2
 ---
 The goal of this project is to reduce exosuit component drift in a passive spring system for hip flexion by placing a lower power motor in series with  the spring to adjust tension over time and maintain constant torque on the hip joint.
 
