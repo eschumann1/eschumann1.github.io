@@ -2,7 +2,6 @@
 title: "Harnessing Electricity from Hurricane Waves"
 excerpt: "A modular, proof of concept prototype to generate electricity from the kinetic energy of waves<br/><img src='/images/plate3.png'>"
 collection: portfolio
-order: 3
 ---
 
 For a more traditional engineering challenge, my senior design proposed the design of a mechanical piston to harness kinetic energy from hurricane waves while protecting levee walls along coastlines from repeated wave impacts. We modeled and constructed a prototype for a piston system using a curved plate to absorb the impact energy of hurricane force waves.
