@@ -12,12 +12,11 @@ Pursuing an internship at the University of Michigan, I developed my passion for
 
 At high speeds, the robot experienced destabilizing foot vibrations that made it difficult to control and often led to falls as seen here.
 
-<br/>
-
 <video  style="display:block; width:100%; height:auto;" autoplay muted controls loop="loop">
     <source src="{{ site.baseurl }}/media/sorbothanefoot.mp4" type="video/mp4" />
 </video>
 
+<br/>
 I proposed to improve stability by implementing highly damped materials to reduce the amplitude and occurrence of foot bounces. My method was to generate a variety of soft foot designs, design a custom drop testing rig to study their bouncing behavior by simulating impact during each step.
 
 <p align="center">
@@ -30,6 +29,6 @@ My results support both high damping and stiffness in the foot to achieve stabil
     <source src="{{ site.baseurl }}/media/neoprenefoot.mp4" type="video/mp4" />
 </video>
 
-
+<br/>
 I published and presented results at International Conference on Robotics and Automation (ICRA)
 2019 where further details can be found.
