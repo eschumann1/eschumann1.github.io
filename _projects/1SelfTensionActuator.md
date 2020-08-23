@@ -1,5 +1,5 @@
 ---
-title: "Self Tensioning Actuator for a Soft Exosuit"
+title: "Self-Tensioning Actuator for a Soft Exosuit"
 excerpt: "Actuator designed to reduce exosuit component drift <br/><img src='/images/actuator.png'>"
 collection: portfolio
 order: 2
