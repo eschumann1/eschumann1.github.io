@@ -12,7 +12,9 @@ Pursuing an internship at the University of Michigan, I developed my passion for
 
 At high speeds, the robot experienced destabilizing foot vibrations that made it difficult to control and often led to falls as seen here.
 
-<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+<br/>
+
+<video  style="display:block; width:100%; height:auto;" autoplay muted controls loop="loop">
     <source src="{{ site.baseurl }}/media/sorbothanefoot.mp4" type="video/mp4" />
 </video>
 
@@ -24,7 +26,7 @@ I proposed to improve stability by implementing highly damped materials to reduc
 
 My results support both high damping and stiffness in the foot to achieve stability at high speeds while remaining energy efficient. Here Neoprene is used to provide high damping and stiffness effects in the feet.
 
-<video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+<video  style="display:block; width:100%; height:auto;" autoplay muted controls loop="loop">
     <source src="{{ site.baseurl }}/media/neoprenefoot.mp4" type="video/mp4" />
 </video>
 
