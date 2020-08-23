@@ -32,3 +32,5 @@ My results support both high damping and stiffness in the foot to achieve stabil
 <br/>
 I published and presented results at International Conference on Robotics and Automation (ICRA)
 2019 where further details can be found.
+
+{{ site.baseurl }}{% link _publications/2019-Effects.md %}
