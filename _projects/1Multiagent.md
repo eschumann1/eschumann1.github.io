@@ -4,7 +4,7 @@ excerpt: "Potential Field based methods for resilient multi-agent clustering and
 collection: portfolio
 ---
 
-For my SM in Computational Science and Engineering at Harvard, I designed and tested simulations for clustering and formation in a multi-agent systems control course. I then proceeded to test the robustness of these methods against the presence of malfunctioning or malicious agents.
+For my MS in Computational Science and Engineering at Harvard, I designed and tested simulations in Python for clustering and formation in a multi-agent systems control course. I then proceeded to test the robustness of these methods against the presence of malfunctioning or malicious agents.
 
 I was motivated by bio-inspired swarms to consider the formation problem based on the work by Guzel et al. in “A Novel Framework for Multi-Agent Systems Using a Decentralized Strategy” where a clustering behavior is defined for individual agents to aggregate, allocate a leader for pattern formation, and navigate a messy environment containing obstacles. 
 
