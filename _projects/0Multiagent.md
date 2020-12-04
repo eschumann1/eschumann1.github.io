@@ -1,6 +1,6 @@
 ---
-title: "Multi-Agent Clustering and Formation"
-excerpt: "Potential Field based methods for multi-agent clustering and formation simulations"
+title: "Resilient Multi-Agent Clustering and Formation"
+excerpt: "Potential Field based methods for resilient multi-agent clustering and formation simulations <br/><img src='/images/multiagent.png'>"
 collection: portfolio
 ---
 
