@@ -24,4 +24,6 @@ I gradually progressed the robot simulation in PyBullet from standing to trottin
     <source src="{{ site.baseurl }}/media/spiritsimwalk.mp4" type="video/mp4" />
 </video>
 
+<br/>
+
 Since demonstrating stable trotting on a flat, level surface without optimizing the leg swing trajectory, I am interested in reformulating the MPC problem in the context of obstacle navigation such as leaping over a large boulder. A further improvement in the long run could involve the swing leg controller and foot step planner in terms of having the MPC controller inform foot placement decisions rather than having these modules isolated.
