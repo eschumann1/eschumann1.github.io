@@ -34,4 +34,4 @@ A basic obstacle avoidance scenario is tested where obstacles are assumed to rem
 
 <br/>
 
-Within the realm of swarm robotics, this framework attempts to perform navigation autonomously through networked robots that utilize sensing within an effective range to communicate and coordinate various activities such as obstacle avoidance or pursing a goal. There are numerous applications for these capabilities in the real world such as environmental monitoring and search and rescue.
+Within the realm of swarm robotics, this framework attempts to perform navigation autonomously through networked robots that utilize sensing within an effective range to communicate and coordinate various activities such as obstacle avoidance or pursuing a goal. There are numerous applications for these capabilities in the real world such as environmental monitoring and search and rescue.
